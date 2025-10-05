@@ -24,6 +24,31 @@ Using **Pandas, NumPy, and Matplotlib**, the dataset is cleaned, analyzed, and v
 | Outcome                   | Class (0=non-diabetic, 1=diabetic)  |
 
 ---
+## Repository Structure
+
+```
+Diabetes-Analytics-Project/
+│
+├── data/
+│   └── diabetes.csv
+│
+├── notebooks/
+│   └── diabetes-analyses.ipynb
+│
+├── reports/
+│   ├── 4-1-plots-age-MBI-pregnancies-insulin-outcome.png
+│   ├── age-distribution-plot.png
+│   ├── age-groups-diabetes.png
+│   ├── BMI-diabetes.png
+│   ├── glucose-diabetes.png
+│   ├── glucose-distribution-plot.png
+│   ├── insulin-diabetes.png
+│   ├── outcome-corr-heatmap.png
+│   └── pregnancy-diabetes-prevalence.png
+│
+├── README.md
+└── requirements.txt
+```
 
 ## Project Workflow
 
@@ -62,7 +87,7 @@ Together, these results highlight that diabetes risk is shaped by **metabolic (g
 
 | Correlation with Outcome | Diabetes Prevalence by Age Group |
 |--------------------------|----------------------------------|
-| ![heatmap](reports/.png) | ![age](reports/.png) |
+| ![heatmap](reports/outcome-corr-heatmap.png) | ![age](reports/age-groups-diabetes.png) |
 
 ---
 
